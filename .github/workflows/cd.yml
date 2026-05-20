@@ -32,7 +32,7 @@ jobs:
       run: terraform init
 
     - name: Terraform Plan
-      run: terraform plan -var="iam_instance_profile=LabRole"
+      run: terraform plan -var="iam_instance_profile=LabInstanceProfile"
 
     - name: Terraform Apply
-      run: terraform apply -var="iam_instance_profile=LabRole" -auto-approve
+      run: terraform apply -var="iam_instance_profile=LabInstanceProfile" -auto-approve
