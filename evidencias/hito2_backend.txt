@@ -1,0 +1,5 @@
+backend "s3" {
+    bucket = "evert-legacy-users-tf-backend"
+    key    = "legacy-users/terraform.tfstate"
+    region = "us-east-1"
+}
