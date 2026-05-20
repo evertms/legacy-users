@@ -1,0 +1,7 @@
+Run npm run test
+
+> legacy-users@1.0.0 test
+> node test/app.test.js
+
+=== Ejecutando Pruebas Unitarias de Seguridad de Usuarios ===
+✅ PASSED: Políticas de complejidad de contraseñas aprobadas.
